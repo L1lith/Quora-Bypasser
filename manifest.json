@@ -1,0 +1,10 @@
+{
+    "name": "Quora Bypasser",
+    "version": "1.0",
+    "description": "Bypass Quora Login Block",
+    "manifest_version": 2,
+    "content_scripts": [{
+        "matches": [ "*://*.quora.com/*", "*://quora.com/*"],
+        "js": ["index.js"]
+    }]
+}
